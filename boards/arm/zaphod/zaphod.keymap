@@ -36,7 +36,7 @@
             label = "Base";
             bindings = <
                 &kp Q      &kp W      &kp E       &kp R        &kp T             &kp Y     &kp U        &kp I       &kp O     &kp P
-                &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F  &kp G             &kp H     &hm RSHFT J  &hm RCTRL K &kp L     &kp QUOT
+                &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F  &kp G             &kp H     &hm RSHFT J  &hm RCTRL K &kp L     &kp SEMI
                 &kp Z      &kp X      &kp C       &kp V        &kp B             &kp N     &kp M        &kp COMMA   &kp DOT   &kp FSLH
                                                   &lt FUN1 TAB &kp BKSP          &kp SPACE &lt FUN2 RET
             >;
