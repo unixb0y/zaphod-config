@@ -12,6 +12,8 @@
 #define FUN1 1
 #define FUN2 2
 
+#define CONFIG_ZAPHOD_BONGO_CAT
+
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
 
@@ -43,8 +45,8 @@
         nav_layer {
             label = "Nav";
             bindings = <
-                &kp ESC    &trans     &trans      &trans       &trans            &trans    &trans       &trans      &kp LBKT  &kp RBKT
-                &trans     &trans     &trans      &trans       &trans            &kp LEFT  &kp DOWN     &kp UP      &kp RIGHT &kp APOS
+                &trans     &trans     &trans      &trans       &trans            &trans    &trans       &trans      &kp LBKT  &kp RBKT
+                &kp ESC    &trans     &trans      &trans       &trans            &kp LEFT  &kp DOWN     &kp UP      &kp RIGHT &kp APOS
                 &trans     &trans     &trans      &trans       &trans            &trans    &trans       &trans      &trans    &kp GRAVE
                                                   &trans       &trans            &trans    &trans
             >;
