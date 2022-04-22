@@ -16,23 +16,6 @@
 &lt { quick_tap_ms = <200>; };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        med_mo {
-	    timeout-ms = <50>;
-            key-positions = <30 31>;
-            bindings = <&mo MED_L>;
-        };
-
-        fn_mo {
-	    timeout-ms = <50>;
-            key-positions = <32 33>;
-            bindings = <&mo FUN_L>;
-        };
-
-    };
-
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
