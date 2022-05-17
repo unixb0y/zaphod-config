@@ -143,8 +143,8 @@
         nav_layer {
             label = "Nav";
             bindings = <
-                &trans     &trans     &trans      &trans          &trans       &kp TILDE           &trans         &trans      &kp BKSP    &kp DEL
-                &sk LSHFT  &sk LALT   &sk LCTRL   &sk LGUI        &trans       &kp TAB           &kp LARW       &kp DARW    &kp UARW   &kp RARW
+                &trans     &trans     &trans      &trans          &trans       &kp TILDE        &trans         &trans      &kp BKSP   &kp DEL
+                &sk LSHFT  &sk LALT   &sk LCTRL   &sk LGUI        &trans       &kp LARW         &kp DARW       &kp UARW    &kp RARW   &kp TAB
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp HOME       &kp PG_DN   &kp PG_UP  &kp END
                                                   &trans          &trans       &kp RET          &trans
             >;
