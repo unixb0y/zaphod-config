@@ -10,8 +10,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define NAV_L 1
-#define SYM_L 2
-#define NUM_L 3
+#define NUM_L 2
+#define SYM_L 3
 #define FUN_L 4
 #define MED_L 5
 
