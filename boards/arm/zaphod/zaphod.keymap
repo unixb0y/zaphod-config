@@ -151,10 +151,10 @@
         num_layer {
             label = "Num";
             bindings = <
-                &kp ESC   &kp N7     &kp N8      &kp N9          &kp RBKT      &trans        &trans         &trans      &trans     &trans
-                &kp MINUS  &kp N4     &kp N5      &kp N6          &kp EQUAL     &trans        &sk LGUI       &sk LCTRL      &sk LALT     &sk LSHFT
+                &kp ESC   &kp N7     &kp N8      &kp N9          &kp RBKT      &trans        &trans         &trans       &trans       &trans
+                &kp MINUS &kp N4     &kp N5      &kp N6          &kp EQUAL     &trans        &sk RGUI       &sk RCTRL    &sk RALT     &sk RSHFT
                 &kp PLUS  &kp N1     &kp N2      &kp N3          &kp N0        &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-                                                  &trans          &trans        &trans        &trans
+                                                 &trans          &trans        &trans        &trans
             >;
         };
 	
